@@ -1,0 +1,33 @@
+.signup-container {
+    text-align: center;
+    margin: 40px auto; /* Increased margin */
+    padding: 30px;
+    border: 2px solid #ccc; /* Increased border thickness */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Increased box shadow */
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold; /* Bold font for labels */
+}
+
+input[type="text"], input[type="password"], input[type="tel"] {
+    width: 250px; /* Increased width */
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
